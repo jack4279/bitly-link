@@ -1,4 +1,3 @@
-services:
 - type: worker
   name: bitly-py
   env: python

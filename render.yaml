@@ -2,7 +2,6 @@ services:
 - type: worker
   name: bitly-py
   env: python
-  plan: starter
   startCommand: python3 bot.py
   envVars:
   - key: API_KEY

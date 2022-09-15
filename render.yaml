@@ -1,7 +1,6 @@
 - type: worker
   name: bitly
   env: python
-  startCommand: python3 bot.py
   envVars:
   - key: API_KEY
     value: production

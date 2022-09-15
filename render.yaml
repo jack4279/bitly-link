@@ -1,6 +1,7 @@
 - type: worker
   name: bitly
   env: python
+  plan: free
   envVars:
   - key: API_KEY
     value: production

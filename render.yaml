@@ -1,5 +1,5 @@
 - type: worker
-  name: bitly-py
+  name: bitly
   env: python
   startCommand: python3 bot.py
   envVars:
